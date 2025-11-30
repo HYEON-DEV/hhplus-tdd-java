@@ -20,7 +20,7 @@ public class PointController {
      */
     @GetMapping("{id}")
     public UserPoint point(
-            @PathVariable long id
+        @PathVariable long id
     ) {
         log.debug("GET /point/{} - get current point", id);
         return pointService.getPoint(id);
@@ -31,7 +31,7 @@ public class PointController {
      */
     @GetMapping("{id}/histories")
     public List<PointHistory> history(
-            @PathVariable long id
+        @PathVariable long id
     ) {
         log.debug("GET /point/{}/histories - get histories", id);
         return pointService.getHistories(id);
@@ -42,8 +42,8 @@ public class PointController {
      */
     @PatchMapping("{id}/charge")
     public UserPoint charge(
-            @PathVariable long id,
-            @RequestBody long amount
+        @PathVariable long id,
+        @RequestBody long amount
     ) {
         log.debug("PATCH /point/{}/charge - amount: {}", id, amount);
         return pointService.charge(id, amount);
@@ -54,8 +54,8 @@ public class PointController {
      */
     @PatchMapping("{id}/use")
     public UserPoint use(
-            @PathVariable long id,
-            @RequestBody long amount
+        @PathVariable long id,
+        @RequestBody long amount
     ) {
         log.debug("PATCH /point/{}/use - amount: {}", id, amount);
         return pointService.use(id, amount);
