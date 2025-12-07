@@ -1,4 +1,4 @@
-package io.hhplus.tdd;
+package io.hhplus.tdd.common.response;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

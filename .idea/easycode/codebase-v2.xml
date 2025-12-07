@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/database/PointHistoryTable.java;/Users/okestro/dev/personal/hhplus-tdd-java/src/main/java/io/hhplus/tdd/database/UserPointTable.java;/Users/okestro/dev/personal/hhplus-tdd-java/src/main/java/io/hhplus/tdd/point/PointController.java;/Users/okestro/dev/personal/hhplus-tdd-java/src/main/java/io/hhplus/tdd/point/PointHistory.java;/Users/okestro/dev/personal/hhplus-tdd-java/src/main/java/io/hhplus/tdd/point/TransactionType.java;/Users/okestro/dev/personal/hhplus-tdd-java/src/main/java/io/hhplus/tdd/point/UserPoint.java;/Users/okestro/dev/personal/hhplus-tdd-java/src/main/java/io/hhplus/tdd/ApiControllerAdvice.java;/Users/okestro/dev/personal/hhplus-tdd-java/src/main/java/io/hhplus/tdd/ErrorResponse.java;/Users/okestro/dev/personal/hhplus-tdd-java/src/main/java/io/hhplus/tdd/TddApplication.java;/Users/okestro/dev/personal/hhplus-tdd-java/build.gradle.kts;/Users/okestro/dev/personal/hhplus-tdd-java/settings.gradle.kts" />
+  </component>
+</project>
